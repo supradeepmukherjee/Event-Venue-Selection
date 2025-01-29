@@ -1,13 +1,7 @@
 import { cn } from "@/lib/utils";
-import { zodResolver } from "@hookform/resolvers/zod";
 import { useState } from "react";
-import { Form, useForm } from "react-hook-form";
-import { z } from "zod";
-import { Button } from "./components/ui/button";
-import { FormControl, FormField, FormItem, FormMessage } from "./components/ui/form";
 import { Input } from "./components/ui/input";
 import { Label } from "./components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "./components/ui/select";
 
 const venues = [
   {
